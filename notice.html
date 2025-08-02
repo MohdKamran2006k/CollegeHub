@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="psudo.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="svg/logofavicon.svg" type="image/x-icon">
+    <script type="module" src="./homepage.js"></script>
+    <link rel="manifest" href="manifest.json" />
+    <script type="module" src="forums.js"></script>
+    <title>Notice - College Hub</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar Top Header Only  -->
+
+        <nav class="flex navbar align">
+            <div class="leftnav flex justify align"><img src="svg/logo.svg" alt="" data-aos="fade-down"
+                    data-aos-duration="500"></div>
+            <div class="mobile-hamburger flex justify align">
+                <div class="flex justify align links" id="dashboard-m" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="gif/profile.gif" alt="" class="nav-icons">
+                    Profile
+                </div>
+                <span class="flex justify align"><img src="gif/menu.gif" alt="" id="hamburger" class="navbtn"
+                        data-aos="fade-left" data-aos-duration="800"></span>
+                <span class="flex justify align"><img src="gif/cross.gif" alt="" id="cross" class="navbtn none"></span>
+            </div>
+            <div class="rightnav">
+                <span class="links flex justify align" data-aos="fade-down" data-aos-duration="600"> <img
+                        src="gif/home.gif" alt="" class="nav-icons">
+                    <a href="index.html">Home</a></span>
+                <span class="links flex justify align" data-aos="fade-down" data-aos-duration="700"> <img
+                        src="gif/study.gif" alt="" class="nav-icons">
+                    <a href="Study-material.html">Study Material</a></span>
+                <span class="links flex justify align" data-aos="fade-down" data-aos-duration="800"> <img
+                        src="gif/notice.gif" alt="" class="nav-icons">
+                    <a href="notice.html">Notice</a></span>
+                <span class="links flex justify align" data-aos="fade-down" data-aos-duration="900"> <img
+                        src="gif/about.gif" alt="" class="nav-icons">
+                    <a href="about.html">About</a></span>
+                <!-- Dashboard- system -->
+                <div class="flex justify align links" id="dashboard" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="gif/profile.gif" alt="" class="nav-icons">
+                    Profile
+                </div>
+                <button class="loginbtn flex justify align" id="login-d" data-aos="fade-left"
+                    data-aos-duration="1100"><img src="gif/login.gif" alt="" class="nav-icons"><a
+                        href="sign-up.html">Login</a></button>
+                <button class="loginbtn flex justify align none" id="logout-d" data-aos="fade-left"
+                    data-aos-duration="1100"><img src="gif/logout.gif" alt="" class="nav-icons"><a
+                        href="index.html">Logout</a></button>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- login-after -->
+    <section>
+        <div class="flex profile-section none" id="opendash">
+            <div class="profile-after justify column flex">
+                <img src="gif/cross.gif" alt="" id="dash-cross">
+                <div class="flex justify align column img-dash">Welcome To<img src="SVG/logoothers.svg" alt="">
+                </div>
+                <div id="login-msg"> Please Login For Profile Dashboard</div>
+                <a href="sign-up.html">
+                    <button id="login" class="btnstyle flex justify align"><img src="gif/login.gif"
+                            alt="">Login</button>
+                </a>
+                <div class="flex justify column userdata none" id="datashow">
+                    <div>Full Name: <span id="loggedUserFName"></span></div>
+                    <div>Stream: <span id="loggedUserStream"></span></div>
+                    <div>Email: <span id="loggedUserEmail"></span></div>
+                    <button id="logout" class="btnstyle flex justify align"><img src="gif/logout.gif"
+                            alt="">Logout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- mobile- nav section -->
+
+    <div class="mobile-nav-container flex justify none" id="nav-none">
+        <div class="mobile-nav">
+            <label for="ul"></label>
+            <ul>
+                <li>
+                    <div class="flex justify align">
+                        <span class="flex justify align"><img src="gif/home.gif" alt=""
+                                class="mobile-nav-icon"></span><a href="index.html" class="links-mobile">Home</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex justify align">
+                        <span class="flex justify align"><img src="gif/study.gif" alt=""
+                                class="mobile-nav-icon"></span><a href="Study-material.html" class="links-mobile">Study
+                            Material</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex justify align">
+                        <span class="flex justify align"><img src="gif/notice.gif" alt=""
+                                class="mobile-nav-icon"></span><a href="notice.html" class="links-mobile">Notice</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex justify align">
+                        <span class="flex justify align"><img src="gif/about.gif" alt=""
+                                class="mobile-nav-icon"></span><a href="about.html" class="links-mobile">About</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex justify align" id="sign-m">
+                        <span class="flex justify align"><img src="gif/sign up.gif" alt=""
+                                class="mobile-nav-icon"></span><a href="sign-up.html" class="links-mobile">Sign
+                            Up</a>
+                    </div>
+                </li>
+
+                <li> <button class="loginbtnmobile flex justify align" id="login-m"><img src="gif/login.gif" alt=""
+                            class="nav-icons"><a href="sign-up.html">Login</a></button></li>
+
+                <li> <button class="loginbtnmobile flex justify align none" id="logout-m"><img src="gif/logout.gif"
+                            alt="" class="nav-icons"><a href="index.html">Logout</a></button></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <main class="about-main">
+        <section class="about-hero flex column align" data-aos="fade-up">
+            <h1>Notice/ Letest Information</h1>
+            <p>For Letest Update & Information Join Our Channel, Group</p>
+        </section>
+
+        <!-- Group Section -->
+        <section class="about-content flex column align">
+            <div class="about-section founder" data-aos="flip-up" data-aos-duration="600">
+                <h2>Join Our Group</h2>
+                <img src="SVG/whatsapp.svg" alt="Founder" />
+                <p><strong>Click & Join Our Group For Letest Information </strong><br />Just Click & Join</p>
+                <span>
+                </span>
+                <button class="flex justify align loginbtnmobile"><img src="SVG/whatsapp.svg" alt="" class="img-d-p"> <a
+                        href="https://chat.whatsapp.com/HVbaj8NxzusCx078N4Zz6f?mode=ac_t">Join
+                        Now</a></button>
+            </div>
+
+            <!-- Channel Section -->
+            <section class="about-content flex column align">
+                <div class="about-section founder" data-aos="flip-up" data-aos-duration="600">
+                    <h2>Join Our Channel</h2>
+                    <img src="SVG/whatsapp.svg" alt="Founder" />
+                    <p><strong>Click & Join Our Channel For Letest Information </strong><br />Just Click & Join</p>
+                    <span>
+                    </span>
+                    <button class="flex justify align loginbtnmobile"><img src="SVG/whatsapp.svg" alt=""
+                            class="img-d-p"> <a href="https://whatsapp.com/channel/0029VbBGhapCsU9StOX94d46">Join
+                            Now</a></button>
+                </div>
+
+
+
+            </section>
+    </main>
+
+
+
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-1">
+
+            <div class="footer-grid">
+                <div class="footer-grid-div-1 flex column">
+                    <div class="footer-img"><a href="index.html"><img src="SVG/logo.svg" alt="" data-aos="fade-right"
+                                data-aos-duration="400"></a></div>
+                    <span data-aos="fade-right" data-aos-duration="500">Is an educational platform that trains
+                        Aspirants in study and other learnig skills.</span>
+                    <span id="my-name" data-aos="fade-right" data-aos-duration="600">By - Mohd Kamran </span>
+                </div>
+                <div class="footer-grid-div-2 flex justify column">
+                    <h4 class="footer-h4" data-aos="fade-right" data-aos-duration="400">Quick Links</h4>
+                    <ul>
+                        <li data-aos="fade-right" data-aos-duration="450"><a href="about.html">About College Hub</a>
+                        </li>
+                        <li data-aos="fade-right" data-aos-duration="500"><a href="Study-material.html">Courses</a></li>
+                        <li data-aos="fade-right" data-aos-duration="550"><a href="forums.html">Forums Filing</a></li>
+                        <li data-aos="fade-right" data-aos-duration="600"><a href="">FAQs</a></li>
+                        <li data-aos="fade-right" data-aos-duration="650"><a href="">Privacy Policy</a></li>
+                        <li data-aos="fade-right" data-aos-duration="700"><a href="">Send Feedbacks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-div-3 flex justify column ">
+                    <h4 class="footer-h4" data-aos="fade-right" data-aos-duration="400">Socials</h4>
+                    <div class="flex align icons">
+                        <a href=""><img src="SVG/facebook.svg" alt="" data-aos="fade-right" data-aos-duration="450"></a>
+                        <a href=""><img src="SVG/twiter.svg" alt="" data-aos="fade-right" data-aos-duration="500"></a>
+                        <a href=""><img src="SVG/instagram.svg" alt="" data-aos="fade-right"
+                                data-aos-duration="550"></a>
+                        <a href=""><img src="SVG/youtube.svg" alt="" data-aos="fade-right" data-aos-duration="600"></a>
+                    </div>
+
+                    <h4 class="footer-h4" data-aos="fade-right" data-aos-duration="400">Contact Us</h4>
+                    <span class="flex phone align" data-aos="fade-right" data-aos-duration="450"><img
+                            src="SVG/icons8-whatsapp.svg" alt="" class="invert">
+                        +91 6376244566</span>
+                    <span class="flex phone align" data-aos="fade-right" data-aos-duration="500"><img
+                            src="SVG/phone.svg" alt="">+91 6376244566</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end  -->
+    <div class="flex justify align end">
+        <span><a href="about.html" class="flex justify align end-img"><img src="SVG/top.svg" alt="">Back On
+                Top</a></span>
+    </div>
+
+    <div class="flex justify align endcopy">
+        <span><a href="" class="flex justify align end-img">&copy 2025 - College Hub. All Rights
+                Reserved.</a></span>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="animation.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

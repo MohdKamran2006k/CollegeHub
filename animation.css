@@ -1,0 +1,25 @@
+   .typing-container {
+      font-size: 2rem;
+      display: flex;
+      background-color: #ff0b80;
+      padding: 10px;
+      border-radius: 15px;
+      margin-top: 15px;
+      width: fit-content;
+    }
+
+    .cursor {
+      animation: blink 0.7s infinite;
+      color: #0063a4;
+      margin-left: 4px;
+    }
+
+    @keyframes blink {
+      0%   { opacity: 1; }
+      50%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .text{
+        font-weight: 600;
+    }

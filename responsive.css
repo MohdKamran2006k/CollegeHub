@@ -1,0 +1,967 @@
+@media (min-width: 601px) and (max-width: 1066px) {
+  .mobile-hamburger {
+    display: none !important;
+  }
+
+  .rightnav {
+    gap: 15px;
+    padding: 0px;
+    font-size: 0.7rem;
+  }
+
+  .nav-icons {
+    height: 15px;
+  }
+
+  .loginbtn {
+    font-size: 0.7rem;
+  }
+
+  .navbar > div > img {
+    width: 20vw;
+  }
+
+  .navbar {
+    padding: 10px;
+    width: 100vw !important;
+    justify-content: space-between !important;
+  }
+
+  .main-hero {
+    padding: 20px;
+  }
+
+  .hero-after {
+    padding: 0px;
+  }
+
+  .hero-after-one {
+    font-size: 1.5rem;
+  }
+
+  .hero-after-two {
+    font-size: 0.8rem;
+  }
+
+  .main-hero-left-one {
+    font-size: 1.88rem;
+  }
+
+  .main-hero-left-two {
+    font-size: 1.2rem;
+  }
+
+  .typing-container {
+    font-size: 1.1rem;
+  }
+
+  .important-links-container h3 {
+    font-size: 2.2rem !important;
+  }
+
+  .ul-container li {
+    font-size: 1.125rem;
+  }
+
+  .welcome {
+    font-size: 1.5rem;
+  }
+
+  .welcome span {
+    font-size: 1rem;
+  }
+
+  .call {
+    font-size: 0.9rem !important;
+  }
+
+  .choose-us h3 {
+    font-size: 2rem;
+  }
+
+  .choose-us-one {
+    width: 55vw;
+    gap: 10px;
+  }
+
+  .choose-us-one p {
+    font-size: 1rem;
+  }
+
+  .choose-us-one h4 {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  .choose-us-container {
+    gap: 10px;
+  }
+
+  .green-tutorials h4 {
+    font-size: 1.4rem;
+  }
+
+  .green-tutorials p {
+    font-size: 1rem;
+  }
+
+  .green-tutorials {
+    gap: 0px;
+  }
+
+  .grid-parent {
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+
+  .grid-div-p {
+    width: 40vw;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .people-container {
+    padding: 20px;
+  }
+
+  .people-container img {
+    width: 70%;
+  }
+
+  .people-msg {
+    width: inherit;
+  }
+
+  .dowanload-parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dowanload-container {
+    padding-top: 0px;
+  }
+  .dowanload-div-1 img {
+    border-radius: 50%;
+    width: 40vw;
+  }
+
+  .dowanload-div-3 img {
+    width: 35vw;
+  }
+
+  .footer-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20vw;
+  }
+
+  .footer-grid-div-1 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-grid-div-1 span {
+    padding: 0px;
+    width: 40vw;
+  }
+
+  .icons a img {
+    width: 4.5vw;
+  }
+
+  .footer-img img {
+    width: 40vw;
+  }
+
+  .endcopy {
+    padding: 10px;
+  }
+
+  .end-img {
+    font-size: 0.9rem;
+  }
+
+  /* page-2 */
+  /* study-page  */
+
+  .study-1 h3 {
+    font-size: 1.4rem !important;
+  }
+
+  .study-1 span {
+    font-size: 1.1rem !important;
+  }
+
+  .material div {
+    font-size: 1.5rem !important;
+  }
+
+  .study-3-ul {
+    width: 90vw !important;
+  }
+
+  .drop-down-1 {
+    width: 90vw !important;
+  }
+
+  .select-section span {
+    font-size: 0.8rem !important;
+    width: 110px !important;
+  }
+
+  .study-3 label {
+    font-size: 1.5rem !important;
+  }
+
+  .study-3-links {
+    font-size: 1.2rem;
+  }
+
+  .full-name {
+    font-size: 0.9rem !important;
+  }
+
+  .li-main img {
+    height: 30px !important;
+  }
+
+  .drop-down-1-li {
+    font-size: 1rem;
+  }
+
+  .drop-down-1-li img {
+    width: 30px !important;
+  }
+
+  .sem li {
+    font-size: 0.9rem !important;
+  }
+
+  .sem li a {
+    font-size: 0.9rem !important;
+  }
+
+  .sem li a img {
+    height: 25px !important;
+  }
+
+  .form-f {
+    width: 90vw;
+  }
+
+  #btn-submit {
+    padding: 15px 50px !important;
+  }
+}
+
+/* mobile - responsive */
+
+@media (min-width: 1px) and (max-width: 600px) {
+  .mobile-hamburger {
+    display: flex !important;
+    /* width: 100% !important; */
+  }
+
+  .rightnav {
+    display: none !important;
+  }
+
+  .navbtn {
+    height: 30px;
+  }
+
+  .navbar > div > img {
+    width: 45vw;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+    /* margin-left: auto; */
+    justify-content: space-between !important;
+    width: 100vw !important;
+  }
+
+  #dashboard-m {
+    margin-right: 15px !important;
+  }
+
+  .main-hero {
+    padding: 10px 10px 0px 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-hero-left {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  .main-hero-right {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-hero-right img {
+    width: 70vw;
+  }
+
+  .hero-after-one {
+    font-size: 1.2rem;
+  }
+
+  .hero-after-two {
+    font-size: 0.8rem;
+  }
+
+  #logo-hero {
+    width: 46vw;
+  }
+  .main-hero-left-one {
+    font-size: 2.4rem;
+  }
+
+  .main-hero-left-two {
+    font-size: 1.8rem;
+  }
+
+  .typing-container {
+    font-size: 1.65rem;
+    margin-top: 10px;
+  }
+
+  .important-links-container {
+    padding: 15px;
+  }
+
+  .important-links-container h3 {
+    padding-top: 15px;
+    font-size: 2rem !important;
+  }
+
+  .important-links-container ul {
+    width: 100%;
+  }
+
+  .important-links-container li {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+
+  .important-links-container h3 {
+    width: 100%;
+  }
+  .welcome img {
+    width: 70vw;
+  }
+  .important-links-container li {
+    font-size: 0.9rem;
+  }
+  .ul-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .choose-us {
+    padding: 15px;
+  }
+
+  .choose-us-img img {
+    width: 60vw;
+  }
+
+  .choose-us h3 {
+    font-size: 1.8rem;
+  }
+
+  .choose-us-one {
+    width: 80vw;
+    padding: 5px;
+    gap: 10px;
+  }
+
+  .choose-us-one p {
+    font-size: 0.75rem;
+  }
+
+  .choose-us-one h4 {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .choose-us-container {
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .green-tutorials h4 {
+    font-size: 1.4rem;
+  }
+
+  .green-tutorials p {
+    font-size: 1rem;
+    padding: 10px 5px;
+  }
+
+  .green-tutorials {
+    gap: 0px;
+    padding: 20px;
+  }
+
+  .grid {
+    padding: 10px;
+  }
+
+  .grid-div-h {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .grid-parent {
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+
+  .grid-div-p {
+    width: 40vw;
+    padding: 10px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .grid-div-img img {
+    padding: 10px;
+    width: 30vw;
+  }
+  .people-container {
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  .people-container h5 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .people-container img {
+    width: 35vw;
+  }
+
+  .msg {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .people {
+    text-align: center;
+  }
+
+  .people-msg {
+    width: inherit;
+    padding: 10px;
+  }
+
+  .feedback {
+    width: 90vw;
+  }
+
+  .feedback textarea {
+    width: 90vw !important;
+    height: 170px !important;
+  }
+
+  .gap-people {
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  .dowanload-parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  .dowanload img {
+    width: 30px;
+  }
+  .dowanload-container {
+    padding-top: 0px;
+  }
+  .dowanload-div-1 img {
+    border-radius: 50%;
+    width: 40vw;
+  }
+  .dowanload-div-2 h4 {
+    font-size: 1.2rem;
+  }
+
+  .dowanload-div-2 span {
+    font-size: 0.8rem;
+  }
+
+  .dowanload-div-3 img {
+    width: 35vw;
+  }
+
+  .footer-grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20vw;
+  }
+
+  .footer-grid-div-1 {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-grid-div-1 span {
+    padding: 0px;
+  }
+
+  .footer-img img {
+    width: 50vw;
+  }
+
+  .icons a img {
+    width: 8.5vw;
+  }
+
+  .endcopy {
+    padding: 10px;
+  }
+
+  .end-img {
+    font-size: 0.9rem;
+  }
+
+  /* page-2 */
+  /* study-page  */
+
+  .study-1 h3 {
+    font-size: 1.4rem !important;
+  }
+
+  .study-1 span {
+    font-size: 1.1rem !important;
+  }
+
+  .material div {
+    font-size: 1.5rem !important;
+  }
+
+  .study-3-ul {
+    width: 90vw !important;
+    padding: 20px 0px !important;
+  }
+
+  .drop-down-1 {
+    width: 90vw !important;
+    padding: 5px !important;
+  }
+
+  .select-section span {
+    font-size: 0.8rem !important;
+    width: 110px !important;
+  }
+
+  .study-3 label {
+    font-size: 1.5rem !important;
+  }
+
+  .study-3-links {
+    font-size: 1.2rem;
+  }
+
+  .full-name {
+    font-size: 0.9rem !important;
+  }
+
+  .li-main img {
+    height: 25px !important;
+  }
+
+  .drop-down-1-li {
+    font-size: 1rem;
+  }
+
+  .drop-down-1-li img {
+    width: 25px !important;
+  }
+
+  .sem li {
+    font-size: 0.9rem !important;
+  }
+
+  .sem li a {
+    font-size: 0.9rem !important;
+  }
+
+  .sem li a img {
+    height: 25px !important;
+  }
+
+  .form-f {
+    width: 95vw;
+    padding: 30px 20px;
+  }
+
+  .form-container2 label {
+    font-size: 1.8rem;
+  }
+
+  #btn-submit {
+    padding: 15px 50px !important;
+  }
+
+  .frame-frontpage {
+    width: 90vw;
+    height: 500px;
+  }
+}
+
+/* low-end mobile  */
+
+/* @media (min-width: 1px) and (max-width: 319px) {
+  .mobile-hamburger {
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .rightnav {
+    display: none !important;
+  }
+  .navbtn {
+    height: 30px;
+  }
+
+  .navbar > div > img {
+    width: 45vw;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+    width: 100vw !important;
+    justify-content: space-between !important;
+  }
+
+  .main-hero {
+    padding: 10px 10px 0px 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-hero-left {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  .main-hero-right {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-hero-right img {
+    width: 70vw;
+  }
+
+  .hero-after-one {
+    font-size: 1.2rem;
+  }
+
+  .hero-after-two {
+    font-size: 0.8rem;
+  }
+
+  #logo-hero {
+    width: 46vw;
+  }
+  .main-hero-left-one {
+    font-size: 2.4rem;
+  }
+
+  .main-hero-left-two {
+    font-size: 1.8rem;
+  }
+
+  .typing-container {
+    font-size: 1.65rem;
+    margin-top: 10px;
+  }
+
+  .important-links-container {
+    padding: 15px;
+  }
+
+  .important-links-container h3 {
+    padding-top: 15px;
+    font-size: 2rem !important;
+  }
+
+  .important-links-container ul {
+    width: 100%;
+  }
+
+  .important-links-container li {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+
+  .important-links-container h3 {
+    width: 100%;
+  }
+  .welcome img {
+    width: 70vw;
+  }
+  .important-links-container li {
+    font-size: 0.9rem;
+  }
+  .ul-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .choose-us {
+    padding: 15px;
+  }
+
+  .choose-us-img img {
+    width: 30vw;
+  }
+
+  .choose-us h3 {
+    font-size: 1.8rem;
+  }
+
+  .choose-us-one {
+    width: 55vw;
+    padding: 5px;
+    gap: 10px;
+  }
+
+  .choose-us-one p {
+    font-size: 0.75rem;
+  }
+
+  .choose-us-one h4 {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .choose-us-container {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .green-tutorials h4 {
+    font-size: 1.4rem;
+  }
+
+  .green-tutorials p {
+    font-size: 1rem;
+    padding: 10px 5px;
+  }
+
+  .green-tutorials {
+    gap: 0px;
+    padding: 20px;
+  }
+
+  .grid {
+    padding: 10px;
+  }
+
+  .grid-div-h {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .grid-parent {
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+
+  .grid-div-p {
+    width: 40vw;
+    padding: 10px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .grid-div-img img {
+    padding: 10px;
+    width: 30vw;
+  }
+  .people-container {
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  .people-container h5 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .people-container img {
+    width: 35vw;
+  }
+
+  .msg {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .people {
+    text-align: center;
+  }
+
+  .people-msg {
+    width: inherit;
+    padding: 10px;
+  }
+
+  .gap-people {
+    gap: 5px;
+  }
+
+  .dowanload-parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  .dowanload img {
+    width: 30px;
+  }
+  .dowanload-container {
+    padding-top: 0px;
+  }
+  .dowanload-div-1 img {
+    border-radius: 50%;
+    width: 40vw;
+  }
+  .dowanload-div-2 h4 {
+    font-size: 1.2rem;
+  }
+
+  .dowanload-div-2 span {
+    font-size: 1rem;
+  }
+
+  .dowanload-div-3 img {
+    width: 35vw;
+  }
+
+  .footer-grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20vw;
+  }
+
+  .footer-grid-div-1 {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-grid-div-1 span {
+    padding: 0px;
+  }
+
+  .footer-img img {
+    width: 50vw;
+  }
+
+  .icons a img {
+    width: 8.5vw;
+  }
+
+  .endcopy {
+    padding: 10px;
+  }
+
+  .end-img {
+    font-size: 0.9rem;
+  }
+
+  /* page-2 */
+/* study-page  */
+
+/* .study-1 h3 {
+    font-size: 1.4rem !important;
+  }
+
+  .study-1 span {
+    font-size: 1.1rem !important;
+  }
+
+  .material div {
+    font-size: 1.5rem !important;
+  }
+
+  .study-3-ul {
+    width: 90vw !important;
+    padding: 20px 0px !important;
+  }
+
+  .drop-down-1 {
+    width: 90vw !important;
+    padding: 5px !important;
+  }
+
+  .select-section span {
+    font-size: 0.8rem !important;
+    width: 110px !important;
+  }
+
+  .study-3 label {
+    font-size: 1.5rem !important;
+  }
+
+  .study-3-links {
+    font-size: 1.2rem;
+  }
+
+  .full-name {
+    font-size: 0.9rem !important;
+  }
+
+  .li-main img {
+    height: 20px !important;
+  }
+
+  .drop-down-1-li {
+    font-size: 1rem;
+  }
+
+  .drop-down-1-li img {
+    width: 20px !important;
+  }
+
+  .sem li {
+    font-size: 0.9rem !important;
+  }
+
+  .sem li a {
+    font-size: 0.9rem !important;
+  }
+
+  .sem li a img {
+    height: 25px !important;
+  }
+} */

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://collegehub.netlify.app/sitemap.xml

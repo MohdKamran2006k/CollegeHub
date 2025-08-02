@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+  <link rel="stylesheet" href="psudo.css">
+  <link rel="stylesheet" href="animation.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+  <link rel="shortcut icon" href="svg/logofavicon.svg" type="image/x-icon">
+  <script type="module" src="./homepage.js"></script>
+  <script type="module" src="forums.js"></script>
+  <title>StudentHub.com</title>
+</head>
+
+<body>
+
+
+  <header>
+    <!-- Navbar Top Header Only  -->
+
+    <nav class="flex navbar align">
+      <div class="leftnav flex justify align"><img src="svg/logo.svg" alt="" data-aos="fade-down"
+          data-aos-duration="500"></div>
+      <div class="mobile-hamburger flex justify align">
+        <div class="flex justify align links" id="dashboard-m">
+          <img src="gif/profile.gif" alt="" class="nav-icons">
+          Profile
+        </div>
+        <span class="flex justify align"><img src="gif/menu.gif" alt="" id="hamburger" class="navbtn"></span>
+        <span class="flex justify align"><img src="gif/cross.gif" alt="" id="cross" class="navbtn none"></span>
+      </div>
+      <div class="rightnav">
+        <span class="links flex justify align" data-aos="fade-down" data-aos-duration="600"> <img src="gif/home (1).gif"
+            alt="" class="nav-icons">
+          <a href="index.html">Home</a></span>
+        <span class="links flex justify align" data-aos="fade-down" data-aos-duration="700"> <img src="gif/study.gif"
+            alt="" class="nav-icons">
+          <a href="Study-material.html">Study Material</a></span>
+        <span class="links flex justify align" data-aos="fade-down" data-aos-duration="800"> <img src="gif/notice.gif"
+            alt="" class="nav-icons">
+          <a href="notice.html">Notice</a></span>
+        <span class="links flex justify align" data-aos="fade-down" data-aos-duration="900"> <img src="gif/about.gif"
+            alt="" class="nav-icons">
+          <a href="about.html">About</a></span>
+        <!-- Dashboard- system -->
+        <div class="flex justify align links" id="dashboard" data-aos="fade-down" data-aos-duration="1000">
+          <img src="gif/profile.gif" alt="" class="nav-icons">
+          Profile
+        </div>
+        <button class="loginbtn flex justify align" id="login-d" data-aos="fade-left" data-aos-duration="1100"><img
+            src="gif/login.gif" alt="" class="nav-icons"><a href="sign-up.html">Login</a></button>
+      </div>
+    </nav>
+  </header>
+  <!-- Dashboard -->
+  <section>
+    <div class="flex profile-section none" id="opendash">
+      <div class="profile-after justify column flex">
+        <img src="gif/cross.gif" alt="" id="dash-cross">
+        <div class="flex justify align column img-dash">Welcome To<img src="SVG/logo.svg" alt=""></div>
+        <div>Full Name: <span id="loggedUserFName"></span></div>
+        <div>Email: <span id="loggedUserEmail"></span></div>
+        <button id="logout">Logout</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mobile Navbar -->
+  <div class="mobile-nav-container flex justify none" id="nav-none">
+    <div class="mobile-nav">
+      <label for="ul"></label>
+      <ul>
+        <li>
+          <div class="flex justify align">
+            <span class="flex justify align"><img src="gif/home.gif" alt="" class="mobile-nav-icon"></span><a
+              href="index.html" class="links-mobile">Home</a>
+          </div>
+        </li>
+        <li>
+          <div class="flex justify align">
+            <span class="flex justify align"><img src="gif/study.gif" alt="" class="mobile-nav-icon"></span><a
+              href="Study-material.html" class="links-mobile">Study
+              Material</a>
+          </div>
+        </li>
+        <li>
+          <div class="flex justify align">
+            <span class="flex justify align"><img src="gif/notice.gif" alt="" class="mobile-nav-icon"></span><a
+              href="notice.html" class="links-mobile">Notice</a>
+          </div>
+        </li>
+        <li>
+          <div class="flex justify align">
+            <span class="flex justify align"><img src="gif/about.gif" alt="" class="mobile-nav-icon"></span><a
+              href="about.html" class="links-mobile">About</a>
+          </div>
+        </li>
+        <li>
+          <div class="flex justify align" id="sign-m">
+            <span class="flex justify align"><img src="gif/sign up.gif" alt="" class="mobile-nav-icon"></span><a
+              href="sign-up.html" class="links-mobile">Sign
+              Up</a>
+          </div>
+        </li>
+
+        <li> <button class="loginbtnmobile flex justify align" id="login-m"><img src="gif/login.gif" alt=""
+              class="nav-icons"><a href="sign-up.html">Login</a></button></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <main class="about-main">
+    <section class="about-hero flex column align" data-aos="fade-up">
+      <h1>
+        Forums Filling
+      </h1>
+      <p>Empowering Students | Simplifying College Life</p>
+    </section>
+
+    <div class="flex justify align">
+      <dotlottie-wc src="https://lottie.host/54db201a-4512-4b6e-80f9-bf3331980daf/RND3tsM5qw.lottie"
+        style="width: 250px;height: 250px" speed="1" autoplay loop></dotlottie-wc>
+    </div>
+
+    <div class="form-container2">
+      <form id="student-form" class="flex justify align column form-f">
+        <section class="about-hero flex column align" data-aos="fade-up">
+          <h1>
+            Forums Filling
+          </h1>
+          <p>Disclaimer <br> This is not official forms. <br> We contact you when you fill the form & then we fill your
+            official form.</p>
+        </section>
+        <div class="flex justify align">
+          <dotlottie-wc src="https://lottie.host/504cfb44-1e32-4cd9-a491-f6ff8c424f24/ESinLnG04Q.lottie"
+            style="width: 250px;height: 250px" speed="1" autoplay loop></dotlottie-wc>
+        </div>
+        <input name="fullName" placeholder="Full Name" required data-aos="zoom-in" data-aos-duration="200">
+        <input name="dateofbirth" placeholder="Date:- xx/xx/xxxx" required data-aos="zoom-in" data-aos-duration="220">
+        <input name="fatherName" placeholder="Father's Name" required data-aos="zoom-in" data-aos-duration="240">
+        <input name="motherName" placeholder="Mother's Name" required data-aos="zoom-in" data-aos-duration="260">
+        <input name="mobilenumber" placeholder="Mobile No:- +91 xxxxxxxxxx" required data-aos="zoom-in"
+          data-aos-duration="280">
+        <input name="gmail" type="email" placeholder="Please Enter Your Gmail Address" required data-aos="zoom-in"
+          data-aos-duration="300">
+        <input name="rollNo" placeholder="Roll No. Ex 2240300xxxx" required data-aos="zoom-in" data-aos-duration="320">
+        <input name="enrollmentNo" placeholder="Enrollment No. Ex KUxxxxxxx" required data-aos="zoom-in"
+          data-aos-duration="340">
+
+        <select required data-aos="zoom-in" data-aos-duration="360">
+          <option value="">Form Type </option>
+          <option value="examination-form">Examination Form</option>
+          <option value="back-form">Back Form</option>
+          <option value="other">Others</option>
+        </select>
+
+        <select required data-aos="zoom-in" data-aos-duration="380">
+          <option value="">Select Stream </option>
+          <option value="bsc">B.Sc</option>
+          <option value="ba">B.A.</option>
+          <option value="bcom">B.Com</option>
+          <option value="other">Others</option>
+        </select>
+
+        <select required data-aos="zoom-in" data-aos-duration="400">
+          <option value="">Select Semester </option>
+          <option value="1st">1st Semester</option>
+          <option value="2nd">2nd Semester</option>
+          <option value="3rd">3rd Semester</option>
+          <option value="4th">4th Semester</option>
+          <option value="5th">5th Semester</option>
+          <option value="6th">6th Semester</option>
+        </select>
+        <input name="subjects" placeholder="Please Enter Your Major Subjects" required data-aos="zoom-in"
+          data-aos-duration="420">
+        <input name="minor" placeholder="Minor Subject Like:- English or etc." data-aos="zoom-in"
+          data-aos-duration="440">
+        <input name="vocational" placeholder="Vocational Subject Like:- Chemistry or etc." data-aos="zoom-in"
+          data-aos-duration="460">
+        <button type="submit" id="btn-submit" data-aos="zoom-out" data-aos-duration="300">Submit</button>
+      </form>
+    </div>
+  </main>
+
+
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

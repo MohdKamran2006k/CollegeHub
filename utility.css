@@ -1,0 +1,47 @@
+.flex {
+  display: flex;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.align {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.test {
+  border: 2px solid red;
+}
+
+.gap-people {
+  gap: 15px;
+}
+
+#my-name {
+  color: #ff0b80;
+  font-weight: 700;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.none {
+  display: none;
+}
+
+.loader {
+  background-color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 999999999;
+}

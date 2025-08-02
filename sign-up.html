@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="psudo.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="sign-up.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="svg/logofavicon.svg" type="image/x-icon">
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <title>Signup collegehub</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <img src="SVG/logoothers.svg" alt="" id="logo-signup">
+        <div class="title-text">
+            <div class="title login">Login Form</div>
+            <div class="title signup">Signup Form</div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Signup</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div id="signInMessage" class="messageDiv" style="display:none;"></div>
+                    <div class="field">
+                        <input type="text" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field toggle-eye">
+                        <input type="password" id="password" placeholder="Password" required>
+                        <img src="SVG/eyeoff.svg" alt="" class="" id="eyeoff">
+                        <img src="SVG/eyeon.svg" alt="" class="none" id="eyeon">
+                    </div>
+                    <div class="pass-link"><a href="#" id="reset">Forgot password?</a></div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Login" id="submitSignIn">
+                    </div>
+                    <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+                </form>
+
+                <!-- sign up side -->
+                <form action="#" class="signup">
+                    <div id="signUpMessage" class="messageDiv" style="display:none;"></div>
+                    <div class="field">
+                        <input type="text" id="fName" placeholder="Full Name" required>
+                    </div>
+                    <div class="field">
+                        <input type="text" id="rEmail" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <select id="stream" required>
+                            <option value="">Select Stream</option>
+                            <option value="BSc">B.Sc</option>
+                            <option value="BCom">B.Com</option>
+                            <option value="BA">B.A</option>
+                            <option value="Msc">M.Sc</option>
+                            <option value="Ma">M.A</option>
+                            <option value="Bed">B.Ed</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="field toggle-eye">
+                        <input id="rPassword" type="password" placeholder="Password" required>
+                        <img src="SVG/eyeoff.svg" alt="" class="" id="eyeoff-2">
+                        <img src="SVG/eyeon.svg" alt="" class="none" id="eyeon-2">
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Signup" id="submitSignUp">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="sign-up.js"></script>
+    <script src="animation.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

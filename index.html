@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="psudo.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="mobile.css">
+    <meta name="description"
+        content="CollegeHub is your go-to platform for all college-related needs. Find study materials, event updates, student communities, and more." />
+    <meta name="keywords"
+        content="CollegeHub, college website, study materials, student portal, university events, college resources, mohd kamran , SBS College Rudrapur " />
+    <meta name="author" content="Mohd Kamran" />
+    <meta name="google-site-verification" content="Q6K4xrR4-T0-xa9R8N8qOMj4yWpnBT6Bn6tRFJ3LjB4" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="svg/logofavicon.svg" type="image/x-icon">
+    <link rel="icon" href="images/College Hub.png" type="image/png">
+    <script type="module" src="./homepage.js"></script>
+    <link rel="manifest" href="manifest.json" />
+    <script type="module" src="forums.js"></script>
+    <meta name="theme-color" content="#0063a4" />
+    <!-- Splide CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <title>CollegeHub - Your One Stop College Resource</title>
+</head>
+
+<body>
+
+
+
+    <header>
+        <!-- Navbar Top Header Only  -->
+
+        <nav class="flex navbar align">
+            <div class="leftnav flex justify align"><img src="svg/logo.svg" alt="" data-aos="fade-down"
+                    data-aos-duration="500"></div>
+            <div class="mobile-hamburger flex justify align">
+                <div class="flex justify align links" id="dashboard-m" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="gif/profile.gif" alt="" class="nav-icons">
+                    Profile
+                </div>
+                <span class="flex justify align"><img src="gif/menu.gif" alt="" id="hamburger" class="navbtn"
+                        data-aos="fade-left" data-aos-duration="800"></span>
+                <span class="flex justify align"><img src="gif/cross.gif" alt="" id="cross" class="navbtn none"></span>
+            </div>
+            <div class="rightnav">
+                <span class="links flex justify align" data-aos="fade-down" data-aos-duration="600"> <img
+                        src="gif/home.gif" alt="" class="nav-icons">
+                    <a href="index.html">Home</a></span>
+                <span class="links flex justify align" data-aos="fade-down" data-aos-duration="700"> <img
+                        src="gif/study.gif" alt="" class="nav-icons">
+                    <a href="Study-material.html">Study Material</a></span>
+                <span class="links flex justify align" data-aos="fade-down" data-aos-duration="800"> <img
+                        src="gif/notice.gif" alt="" class="nav-icons">
+                    <a href="notice.html">Notice</a></span>
+                <span class="links flex justify align" data-aos="fade-down" data-aos-duration="900"> <img
+                        src="gif/about.gif" alt="" class="nav-icons">
+                    <a href="about.html">About</a></span>
+                <!-- Dashboard- system -->
+                <div class="flex justify align links" id="dashboard" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="gif/profile.gif" alt="" class="nav-icons">
+                    Profile
+                </div>
+                <button class="loginbtn flex justify align" id="login-d" data-aos="fade-left"
+                    data-aos-duration="1100"><img src="gif/login.gif" alt="" class="nav-icons"><a
+                        href="sign-up.html">Login</a></button>
+                <button class="loginbtn flex justify align none" id="logout-d" data-aos="fade-left"
+                    data-aos-duration="1100"><img src="gif/logout.gif" alt="" class="nav-icons"><a
+                        href="index.html">Logout</a></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section maain -->
+
+
+
+    <main>
+        <!-- login-after -->
+        <section>
+            <div class="flex profile-section none" id="opendash">
+                <div class="profile-after justify column flex">
+                    <img src="gif/cross.gif" alt="" id="dash-cross">
+                    <div class="flex justify align column img-dash">Welcome To<img src="SVG/logoothers.svg" alt="">
+                    </div>
+                    <div id="login-msg"> Please Login For Profile Dashboard</div>
+                    <a href="sign-up.html">
+                        <button id="login" class="btnstyle flex justify align"><img src="gif/login.gif"
+                                alt="">Login</button>
+                    </a>
+                    <div class="flex justify column userdata none" id="datashow">
+                        <div>Full Name: <span id="loggedUserFName"></span></div>
+                        <div>Stream: <span id="loggedUserStream"></span></div>
+                        <div>Email: <span id="loggedUserEmail"></span></div>
+                        <button id="logout" class="btnstyle flex justify align"><img src="gif/logout.gif"
+                                alt="">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- mobile- nav section -->
+
+        <div class="mobile-nav-container flex justify none" id="nav-none">
+            <div class="mobile-nav">
+                <label for="ul"></label>
+                <ul>
+                    <li>
+                        <div class="flex justify align">
+                            <span class="flex justify align"><img src="gif/home.gif" alt=""
+                                    class="mobile-nav-icon"></span><a href="index.html" class="links-mobile">Home</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify align">
+                            <span class="flex justify align"><img src="gif/study.gif" alt=""
+                                    class="mobile-nav-icon"></span><a href="Study-material.html"
+                                class="links-mobile">Study
+                                Material</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify align">
+                            <span class="flex justify align"><img src="gif/notice.gif" alt=""
+                                    class="mobile-nav-icon"></span><a href="notice.html" class="links-mobile">Notice</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify align">
+                            <span class="flex justify align"><img src="gif/about.gif" alt=""
+                                    class="mobile-nav-icon"></span><a href="about.html" class="links-mobile">About</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify align" id="sign-m">
+                            <span class="flex justify align"><img src="gif/sign up.gif" alt=""
+                                    class="mobile-nav-icon"></span><a href="sign-up.html" class="links-mobile">Sign
+                                Up</a>
+                        </div>
+                    </li>
+
+                    <li> <button class="loginbtnmobile flex justify align" id="login-m"><img src="gif/login.gif" alt=""
+                                class="nav-icons"><a href="sign-up.html">Login</a></button></li>
+
+                    <li> <button class="loginbtnmobile flex justify align none" id="logout-m"><img src="gif/logout.gif"
+                                alt="" class="nav-icons"><a href="index.html">Logout</a></button></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <!-- hero section  -->
+        <div class="main-hero flex">
+            <div class="main-hero-left  flex">
+                <span class="main-hero-left-one" data-aos="fade-right" data-aos-duration="500">Learn On Your</span>
+                <span class="main-hero-left-two" data-aos="fade-right" data-aos-duration="700">Schedule with </span>
+                <img src="SVG/logo.svg" alt="" id="logo-hero" data-aos="fade-right" data-aos-duration="900">
+                <div class="typing-container" data-aos="fade-right" data-aos-duration="1100">
+                    <span class="text"></span>
+                    <span class="cursor">|</span>
+                </div>
+            </div>
+            <div class="main-hero-right"><img src="SVG/kid.svg" alt="kid Img" data-aos="fade-up"
+                    data-aos-duration="500"></div>
+        </div>
+
+        <!-- advertisment -->
+        <div class="hero-after flex align">
+            <div class="flex justify align">
+                <span class="hero-after-one" data-aos="fade-down" data-aos-duration="500">30+</span>
+                <span class="hero-after-two" data-aos="fade-up" data-aos-duration="500">Courses</span>
+            </div>
+            <div class="flex justify align">
+                <span class="hero-after-one" data-aos="fade-down" data-aos-duration="700">150+</span>
+                <span class="hero-after-two" data-aos="fade-up" data-aos-duration="700">Syllabus</span>
+            </div>
+            <div class="flex justify align">
+                <span class="hero-after-one" data-aos="fade-down" data-aos-duration="900">1000+</span>
+                <span class=" hero-after-two" data-aos="fade-up" data-aos-duration="900">PDFs</span>
+            </div>
+        </div>
+
+
+        <section class="slide-img">
+            <div class="splide" id="image-slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="images/2.jpg" alt="Image 1"></li>
+                        <li class="splide__slide"><img src="images/Kamran 2.png" alt="Image 2"></li>
+                        <li class="splide__slide"><img src="images/PXL_20250111_061143013.jpg" alt="Image 3"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <div class="flex justify align card-container">
+                <div class="scroll-track">
+                    <div class="card-info">
+                        <img src="SVG/form.svg" alt="">
+                        <span>Forums Filling</span>
+                        <a href="forums.html">Click Now</a>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="card-info">
+                        <img src="SVG/syllabus.svg" alt="">
+                        <span>Syllabus</span>
+                        <a href="Study-material.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/books.svg" alt="">
+                        <span>Books</span>
+                        <a href="Study-material.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/notes.svg" alt="">
+                        <span>Notes</span>
+                        <a href="Study-material.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/notice.svg" alt="">
+                        <span>Notice</span>
+                        <a href="notice.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/help2.svg" alt="">
+                        <span>Help !</span>
+                        <a href="https://wa.me/916376244566">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/about.svg" alt="">
+                        <span>About Us</span>
+                        <a href="about.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/result.svg" alt="">
+                        <span>Results</span>
+                        <a href="https://kunainital.samarth.edu.in/index.php/site/login">Click Now</a>
+                    </div>
+                </div>
+                
+
+                <div class="scroll-track">
+                    <div class="card-info">
+                        <img src="SVG/form.svg" alt="">
+                        <span>Forums Filling</span>
+                        <a href="forums.html">Click Now</a>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="card-info">
+                        <img src="SVG/syllabus.svg" alt="">
+                        <span>Syllabus</span>
+                        <a href="Study-material.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/books.svg" alt="">
+                        <span>Books</span>
+                        <a href="Study-material.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/notes.svg" alt="">
+                        <span>Notes</span>
+                        <a href="Study-material.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/notice.svg" alt="">
+                        <span>Notice</span>
+                        <a href="notice.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/help2.svg" alt="">
+                        <span>Help !</span>
+                        <a href="https://wa.me/916376244566">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/about.svg" alt="">
+                        <span>About Us</span>
+                        <a href="about.html">Click Now</a>
+                    </div>
+
+                    <div class="card-info">
+                        <img src="SVG/result.svg" alt="">
+                        <span>Results</span>
+                        <a href="https://kunainital.samarth.edu.in/index.php/site/login">Click Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- important links -->
+        <section>
+            <div class="important-links-container flex justify align column">
+
+                <h3 class="flex justify align" data-aos="fade-up">Important Links</h3>
+                <div class="flex justify align ul-container">
+                    <ul class="flex justify align column">
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="500">
+                            <div><img src="" alt="">Forums Filling</div>
+                            <a href="forums.html">Click Here</a>
+                        </li>
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="550">
+                            <div><img src="" alt="">Front Pages For Assignments</div>
+                            <a href="frontpage.html">Click Here</a>
+                        </li>
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="600">
+                            <div><img src="" alt="">Syllabus, Books, Notes Dowanload</div>
+                            <a href="Study-material.html">Click Here</a>
+                        </li>
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="650">
+                            <div><img src="" alt="">Our Group/ Latest Information</div>
+                            <a href="https://chat.whatsapp.com/HVbaj8NxzusCx078N4Zz6f?mode=ac_t">Join Now</a>
+                        </li>
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="650">
+                            <div><img src="https://www.youtube.com/@CollegeHub.n" alt="">You Tube Full Website Tour
+                            </div>
+                            <a href="">Watch Now</a>
+                        </li>
+
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="650">
+                            <div><img src="" alt="">Our Channel/ Latest Information</div>
+                            <a href="https://whatsapp.com/channel/0029VbBGhapCsU9StOX94d46">Join Now</a>
+                        </li>
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="700">
+                            <div><img src="" alt="">Ask For Help !</div>
+                            <a href="https://wa.me/916376244566">Just Freely Ask</a>
+                        </li>
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="750">
+                            <div><img src="" alt="">Assignments</div>
+                            <a href="Study-material.html">Click Here</a>
+                        </li>
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="800">
+                            <div><img src="" alt="">Results Check</div>
+                            <a href="https://kunainital.samarth.edu.in/index.php/site/login">Click Here</a>
+                        </li>
+
+                        <li class="flex justify align" data-aos="zoom-in-right" data-aos-duration="850">
+                            <div><img src="" alt="">Dowanload College Hub</div>
+                            <a href="">Click Here</a>
+                        </li>
+                    </ul>
+                    <div class="flex welcome justify align column">
+                        <img src="images/Kamran 4.png" alt="" data-aos="flip-left">
+                        <p data-aos="fade-down">Mohd. Kamran</p>
+                        <span data-aos="fade-up">Founder/ Web-Developer</span>
+                        <span class="call" data-aos="fade-left">Contact Us. +91 6376244566</span>
+                    </div>
+                </div>
+            </div>
+            <!-- welcome Message -->
+        </section>
+
+        <!-- why Choose us Section  -->
+
+        <section>
+            <div class="choose-us flex column align">
+                <h3 data-aos="fade-down">Why Choose Us ?</h3>
+                <div class="flex choose-us-container">
+                    <div class="choose-us-img flex justify align"><img src="SVG/chooseus-1.svg" alt=""
+                            data-aos="flip-left"></div>
+                    <div class="flex column choose-us-one">
+                        <h4 data-aos="fade-left" data-aos-duration="600">Detailed Syllabus with Localized Content</h4>
+                        <p data-aos="fade-left" data-aos-duration="700">Our goal is to make things clear for everyone,
+                            so you know exactly what to study in each
+                            subject, semester by semester, unit by unit. No confusion just straight forward content
+                            that actually helps. <br><b>This platform is for you to save your time, reduce stress, and
+                                help you stay focused on what really matters: learning and growing.</b>😊📚</p>
+                    </div>
+                </div>
+
+                <!-- choose-us-2 -->
+                <div class="flex choose-us-container">
+                    <div class="flex column choose-us-one">
+                        <h4 data-aos="fade-right" data-aos-duration="600">An Interactive Personalized Learning
+                            Experience</h4>
+                        <p data-aos="fade-right" data-aos-duration="700">Every student learns differently and we totally
+                            get that. That’s why this platform is built
+                            to give you a more interactive and personalized way to study. Whether you prefer reading
+                            notes, watching visuals, or exploring topics step by step, we’re designing it so you can
+                            learn your way.
+                            From organized notes and subject-wise material to helpful animations and easy navigation
+                            everything here is made to feel like it was built just for you. The goal? To make learning
+                            not just easier, but also more fun and meaningful.
+                            <br><b>You’re not just using a website you’re part of a growing learning space where you can
+                                move at your own pace, in your own style.</b> 🎓✨
+                        </p>
+                    </div>
+                    <div class="choose-us-img flex justify align choose-us-img-2"><img src="SVG/chooseus-2.svg" alt=""
+                            data-aos="flip-right">
+                    </div>
+                </div>
+
+                <!-- choose-us-3 -->
+                <div class="flex choose-us-container">
+                    <div class="choose-us-img flex justify align"><img src="SVG/chooseus-3.svg" alt=""
+                            data-aos="flip-left"></div>
+                    <div class="flex column choose-us-one">
+                        <h4 data-aos="fade-left" data-aos-duration="600">College Online Works ! / Like Forums Filling,
+                            Results & Much More</h4>
+                        <p data-aos="fade-left" data-aos-duration="700">We know how tiring and confusing it can be to
+                            manage all your college-related tasks — like
+                            filling out forms, checking updates, or downloading important documents. That’s why we’re
+                            working to bring <b>all those college online works together in one place.
+                                From exam forms, admission-related links, result updates, scholarship info, and more</b>
+                            this section is here to save your time and reduce stress. No more asking around or searching
+                            endlessly everything you need will be just a click away. <br>
+                            <b>It’s all part of making your college journey smoother, smarter, and fully digital.</b>
+                        </p>
+                    </div>
+                </div>
+                <!-- end  -->
+            </div>
+        </section>
+
+
+
+        <!-- Green Section  -->
+
+        <section>
+            <div class="green-tutorials flex justify align column">
+                <h4 data-aos="fade-down">QUICK TUTORAILS</h4>
+                <p data-aos="fade-up"><b>At College Hub</b>, Explore Courses | Stay Updated | Connect with Campus |
+                    Join the hub that brings the entire college ecosystem together — <b>smarter, faster, and
+                        student-friendly.</b></p>
+                <div data-aos="flip-up"><img src="SVG/quick.svg" alt="" class="green-img"></div>
+            </div>
+        </section>
+
+        <!-- Grid Section -->
+
+        <section>
+            <div class="flex justify align grid column after-green">
+                <h4 id="grid-h4" data-aos="fade-down">Features Include</h4>
+                <div class="grid-parent">
+                    <div class="grid-div1 grid-div-flex">
+                        <span class="grid-div-img" data-aos="flip-down" data-aos-duration="500"><img
+                                src="SVG/grid-1.svg" alt=""></span>
+                        <h4 class="grid-div-h" data-aos="fade-right" data-aos-duration="500">All Syllabus</h4>
+                        <p class="grid-div-p" data-aos="fade-left" data-aos-duration="500">We provide you all kind of
+                            syllabus for every Stream
+                            like (B.sc / B.A
+                            /
+                            B.com) & Masters and all other for all the semester included where you have all syllabus
+                            in
+                            hindi or english as well.</p>
+                    </div>
+                    <div class="grid-div2 grid-div-flex">
+                        <span class="grid-div-img" data-aos="flip-down" data-aos-duration="500"> <img
+                                src="SVG/grid-2.svg" alt=""></span>
+                        <h4 class="grid-div-h" data-aos="fade-left" data-aos-duration="500">All Assignment</h4>
+                        <p class="grid-div-p" data-aos="fade-right" data-aos-duration="500">We don’t just give you
+                            assignments, we review your
+                            solutions and give
+                            you
+                            insightful feedbacks on your study to enhance and reinforce your understanding.</p>
+                    </div>
+                    <div class="grid-div3 grid-div-flex">
+                        <span class="grid-div-img" data-aos="flip-down" data-aos-duration="500"> <img
+                                src="SVG/book-lover-44.svg" alt=""></span>
+                        <h4 class="grid-div-h" data-aos="fade-right">Additional Books</h4>
+                        <p class="grid-div-p" data-aos="fade-left">Whether at home or on the go, you can still follow
+                            your study by
+                            reading
+                            the additional books like (Laxmi-Question Bank). which can you find in our webpage with
+                            high-quality PDFs & much more.</p>
+                    </div>
+                    <div class="grid-div4 grid-div-flex">
+                        <span class="grid-div-img" data-aos="flip-down" data-aos-duration="500"> <img
+                                src="SVG/grid-4.svg" alt=""></span>
+                        <h4 class="grid-div-h" data-aos="fade-left">Forums Filling</h4>
+                        <p class="grid-div-p" data-aos="fade-right">We provide you all kind of forums filling like
+                            (Examination Forums,
+                            Registration Forums, Scholarship Forums). & all others forums also available here</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- people - section -->
+
+        <section>
+            <div class="people-container flex justify align column">
+                <h5 data-aos="fade-down">What People Are Saying</h5>
+                <div class="flex justify align gap-people">
+                    <span class="flex justify align">
+                        <img src="SVG/prople.svg" alt="" data-aos="flip-down">
+                    </span>
+
+                    <!-- message people-container  -->
+
+                    <div class="people-msg flex column">
+                        <span class="msg">
+                            <form id="feedback-form" class="feedback flex justify align column">
+                                <input type="text" name="name" placeholder="Your Full Name Please" required
+                                    data-aos="fade-left">
+                                <textarea name="message"
+                                    placeholder="Your Feedback Hame Kya improve karna Chahiye yaa koi aapka sawal ? hame bataye mohdkamran88k@gmail.com ya Phone number:- +91 6376244566 per call karen Typeing..... Click & Message Me"
+                                    required data-aos="fade-left" data-aos-duration="600"></textarea>
+                                <button type="submit" data-aos="fade-up">Send Feedback</button>
+                            </form>
+                        </span>
+                        <span class="people" data-aos="fade-right"><b>Mohd. Kamran</b></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section dowanload -->
+
+        <section>
+            <div class="dowanload-container flex justify align">
+                <div class="dowanload-parent">
+                    <div class="dowanload-div-1 flex  align"><img src="SVG/dowanload-1.svg" alt=""
+                            data-aos="fade-right"></div>
+                    <div class="dowanload-div-2 flex justify align column">
+                        <h4 data-aos="fade-down">Download College Hub Webapp</h4>
+                        <span data-aos="fade-down" data-aos-duration="600">Whether at home or on the go, <b>College
+                                Hub</b> wants <br>
+                            You to keep learning. Hence, the <b>College Hub</b> webapp.</span>
+                        <div class="flex justify align dowanload" data-aos="fade-up"><img src="gif/download.gif" alt="">
+                            <h4>Download Now</h4>
+                        </div>
+                    </div>
+                    <div class="dowanload-div-3 flex justify align"><img src="SVG/dowanload-2.svg" alt=""
+                            data-aos="fade-left"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-1">
+
+            <div class="footer-grid">
+                <div class="footer-grid-div-1 flex column">
+                    <div class="footer-img"><a href="index.html"><img src="SVG/logo.svg" alt="" data-aos="fade-right"
+                                data-aos-duration="400"></a></div>
+                    <span data-aos="fade-right" data-aos-duration="500">Is an educational platform that trains
+                        Aspirants in study and other learnig skills.</span>
+                    <span id="my-name" data-aos="fade-right" data-aos-duration="600">By - Mohd Kamran </span>
+                </div>
+                <div class="footer-grid-div-2 flex justify column">
+                    <h4 class="footer-h4" data-aos="fade-right" data-aos-duration="400">Quick Links</h4>
+                    <ul>
+                        <li data-aos="fade-right" data-aos-duration="450"><a href="about.html">About College Hub</a>
+                        </li>
+                        <li data-aos="fade-right" data-aos-duration="500"><a href="Study-material.html">Courses</a></li>
+                        <li data-aos="fade-right" data-aos-duration="550"><a href="forums.html">Forums Filing</a></li>
+                        <li data-aos="fade-right" data-aos-duration="600"><a href="upcoming.html">FAQs</a></li>
+                        <li data-aos="fade-right" data-aos-duration="650"><a href="upcoming.html">Privacy Policy</a>
+                        </li>
+                        <li data-aos="fade-right" data-aos-duration="700"><a href="">Send Feedbacks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-div-3 flex justify column ">
+                    <h4 class="footer-h4" data-aos="fade-right" data-aos-duration="400">Socials</h4>
+                    <div class="flex align icons">
+                        <a href="upcoming.html"><img src="SVG/facebook.svg" alt="" data-aos="fade-right"
+                                data-aos-duration="450"></a>
+                        <a href="upcoming.html"><img src="SVG/twiter.svg" alt="" data-aos="fade-right"
+                                data-aos-duration="500"></a>
+                        <a href="https://www.instagram.com/mohdkamran2006?igsh=MTlhdGZicnFtcGtmZQ=="><img
+                                src="SVG/instagram.svg" alt="" data-aos="fade-right" data-aos-duration="550"></a>
+                        <a href="https://www.youtube.com/@CollegeHub.n"><img src="SVG/youtube.svg" alt=""
+                                data-aos="fade-right" data-aos-duration="600"></a>
+                    </div>
+
+                    <h4 class="footer-h4" data-aos="fade-right" data-aos-duration="400">Contact Us</h4>
+                    <span class="flex phone align" data-aos="fade-right" data-aos-duration="450"><img
+                            src="SVG/icons8-whatsapp.svg" alt="" class="invert">
+                        +91 6376244566</span>
+                    <span class="flex phone align" data-aos="fade-right" data-aos-duration="500"><img
+                            src="SVG/phone.svg" alt="">+91 6376244566</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end  -->
+    <div class="flex justify align end">
+        <span><a href="index.html" class="flex justify align end-img"><img src="SVG/top.svg" alt="">Back On
+                Top</a></span>
+    </div>
+
+    <div class="flex justify align endcopy">
+        <span><a href="" class="flex justify align end-img">&copy 2025 - College Hub. All Rights
+                Reserved.</a></span>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="animation.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
